@@ -19,13 +19,13 @@
     <ol >
         <a href="../mini_game/mini_game_one.html">Play</a>
         <a href="../mini_game/2player.html">2 Player</a>
-        <a id="exitButton">Exit</a>
+        <a id="exitButton">Back</a>
     </ol>
     <script>
         const exitButton = document.getElementById('exitButton');
         console.log(exitButton);
         exitButton.addEventListener('click', () => {
-            window.close();
+            window.location = "../hub/hub.html";
         });
     </script>
 </body>
