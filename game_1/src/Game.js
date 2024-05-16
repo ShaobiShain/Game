@@ -7,32 +7,19 @@ class Game {
         this.ui = new UI(this);
         this.keys = [];
         this.enemies = [];
-        this.ammo = 25;
-        this.maxAmmo = 50;
+        this.ammo = 35;
+        this.maxAmmo = 65;
         this.ammoTimer = 0;
         this.ammoInterval = 300;
         this.enemyTimer = 0;
         this.enemyInterval = 1000;
         this.gameOver = false;
         this.score = 0;
-        this.winningScore = 60;
+        this.winningScore = 91;
         this.gameTime = 0;
         this.timeLimit = 35 * 1000;
         this.background = new Background(this);
         this.speed = 1;
-        this.restartGame = () => {
-            this.player = new Player(this);
-            this.keys = [];
-            this.enemies = [];
-            this.ammo = 20;
-            this.ammoTimer = 0;
-            this.enemyTimer = 0;
-            this.gameOver = false;
-            this.score = 0;
-            this.gameTime = 0;
-            this.background = new Background(this);
-            this.speed = 1;
-        };
     }
 
     update(deltaTime) {
