@@ -1,0 +1,48 @@
+body {
+    background-image: url("./images/caveX.png");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+.score{
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+
+
+
+
+
+
+a {
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    display: block; /* Добавляем эту строку для отображения ссылок в столбец */
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 10px; /* Добавляем отступ между ссылками */
+    width: 200px;
+    margin: auto auto;
+    
+}
+
+a:hover {
+    background-color: #7981B0;
+    color: #fff;
+}

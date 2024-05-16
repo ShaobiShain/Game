@@ -1,0 +1,53 @@
+{
+  "name": "Crystal_Dodge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "build": "electron-builder"
+    },
+    
+
+  "author": "Anatily Ivahnenko",
+  "license": "ISC",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
+    "@electron-forge/maker-deb": "^6.4.2",
+    "@electron-forge/maker-rpm": "^6.4.2",
+    "@electron-forge/maker-squirrel": "^6.4.2",
+    "@electron-forge/maker-zip": "^6.4.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
+    "electron": "^26.2.2"
+  },
+
+  "build": {
+    "appId": "com.yourapp.app",
+    "mac": {
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    },
+    "appId": "com.yourapp.app",
+    "mac": {
+      "icon": "./mini_game/images/logo.png"
+    },
+    "win": {
+       "icon": "./mini_game/images/logo.png"
+    },
+    "linux": {
+      "icon": "./mini_game/images/logo.png"
+      }
+    }
+  }
+
+
