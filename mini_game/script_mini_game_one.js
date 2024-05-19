@@ -12,10 +12,8 @@ function resizeCanvas() {
 
 window.addEventListener('resize', () => {
     resizeCanvas();
-    // You might need to update other elements based on the new canvas size here
-});
 
-// Call resizeCanvas initially to set the canvas size based on the initial window size
+});
 resizeCanvas();
 
 
@@ -265,7 +263,7 @@ function draw() {
         requestAnimationFrame(draw);
 
     } else {
-        window.location.replace("../menu/menu_bar.html");
+        window.location.replace("../menu2/menu_bar.html");
     }
 }
 

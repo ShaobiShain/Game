@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url("./main_images/menu_background.jpg");
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+a {
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    display: block; /* Добавляем эту строку для отображения ссылок в столбец */
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 10px; /* Добавляем отступ между ссылками */
+}
+
+a:hover {
+    background-color: #7981B0;
+    color: #fff;
+}
+
+
+ol {
+    width: 200px;
+}

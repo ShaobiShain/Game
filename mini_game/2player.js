@@ -293,7 +293,7 @@ function draw() {
         requestAnimationFrame(draw);
 
     } else {
-        window.location.replace("../menu/menu_bar.html");
+        window.location.replace("../menu2/menu_bar.html");
     }
 }
 
