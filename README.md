@@ -34,3 +34,5 @@
 -Или вы можете отсканировать QR-код, чтобы скачать игру:
 
 ![image](https://github.com/ShaobiShain/Game/assets/126594092/7cd6c88a-0c58-42d3-8597-d77b24cdf250)
+
+### P.S Разархивировать папку Dist, Открыть файл Crystal Dodge, установить
